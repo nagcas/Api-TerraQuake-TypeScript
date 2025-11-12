@@ -1,12 +1,13 @@
-import './App.css'
+import { Container } from 'react-bootstrap';
+import './App.css';
+import Home from './components/home/Home';
 
 function App() {
-
   return (
-    <>
-      <h1>React TypeScript</h1>
-    </>
-  )
+    <Container>
+      <Home />
+    </Container>
+  );
 }
 
-export default App
+export default App;
